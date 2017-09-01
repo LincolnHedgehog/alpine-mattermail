@@ -2,7 +2,7 @@ stages:
   - build
   - deploy
 
-amd64 caddy build:
+amd64 mattermail build:
   stage: yobasystems/alpine-docker:dind
   stage: build
   tags:

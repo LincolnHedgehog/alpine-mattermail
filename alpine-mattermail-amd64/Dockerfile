@@ -1,4 +1,4 @@
-FROM yobasystems/alpine-golang:latest
+FROM yobasystems/alpine-golang:amd64
 LABEL maintainer "Dominic Taylor <dominic@yobasystems.co.uk>" architecture="AMD64/x86_64"
 
 RUN apk --update add curl git && \

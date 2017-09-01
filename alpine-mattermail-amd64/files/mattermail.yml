@@ -1,0 +1,5 @@
+mattermail:
+  container_name: mattermail
+  image: yobasystems/alpine-mattermail
+  volumes:
+    - .files/mattermail.json:/config.json

@@ -1,0 +1,21 @@
+[
+	{
+		"Name":              "Orders",
+		"Server":            "https://mattermost.acme.co.uk",
+		"Team":              "Team1",
+		"Channel":           "#orders",
+		"MattermostUser":    "mattermail@acme.co.uk",
+		"MattermostPass":    "password",
+		"ImapServer":        "imap.gmail.com:143",
+		"Email":             "orders@acme.co.uk",
+		"EmailPass":         "password",
+		"MailTemplate":      ":incoming_envelope: _From: **%v**_\n>_%v_\n\n%v",
+		"StartTLS":          false,
+		"Disabled":          false,
+		"Debug":             true,
+		"LinesToPreview":    10,
+		"NoRedirectChannel": false,
+		"NoAttachment":      false,
+		"Filter":            []
+	}
+]
